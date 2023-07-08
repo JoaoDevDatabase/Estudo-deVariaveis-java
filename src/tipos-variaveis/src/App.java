@@ -1,18 +1,18 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        byte numero = 18; /*
-                           * usamos o byte para número pequenos,
-                           * mesmo que a JVM transforme o byte para o int e nos de
-                           * a mesma resposta
-                           */
+        final byte numero = 18; /*
+                                 * usamos o byte para número pequenos,
+                                 * mesmo que a JVM transforme o byte para o int e nos de
+                                 * a mesma resposta
+                                 */
 
-        short ano; /*
-                    * Já o short usamos para números um pouco mais extensos
-                    * do que o byte ( que usamos para números menores);
-                    * podemos usar o int para número do tamanho de pagamento de funcionário
-                    * ou tambem para o ano que estamos querendo mostrar;
-                    */
+        final short ano; /*
+                          * Já o short usamos para números um pouco mais extensos
+                          * do que o byte ( que usamos para números menores);
+                          * podemos usar o int para número do tamanho de pagamento de funcionário
+                          * ou tambem para o ano que estamos querendo mostrar;
+                          */
 
         ano = 2023;
 
