@@ -8,7 +8,7 @@ public class App {
                            */
 
         short ano; /*
-                    * Já o int usamos para números um pouco mais extensos
+                    * Já o short usamos para números um pouco mais extensos
                     * do que o byte ( que usamos para números menores);
                     * podemos usar o int para número do tamanho de pagamento de funcionário
                     * ou tambem para o ano que estamos querendo mostrar;
