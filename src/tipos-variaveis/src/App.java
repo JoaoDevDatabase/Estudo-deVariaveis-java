@@ -16,6 +16,14 @@ public class App {
 
         ano = 2023;
 
+        short numerocurto = 1;
+        int numerolongo = numerocurto;
+        short numeroLongo = (short) numerolongo; /*
+                                                  * Aqui nós usamos o metodo casting,
+                                                  * para poder converter o tipo de nosso código !
+                                                  */
+
+        System.out.printf("%d%n", numeroLongo);
         System.out.printf("Feliz %d%n", ano);
         System.out.printf("João tem %d%n ", numero);
         System.out.println("Hello, World!");
